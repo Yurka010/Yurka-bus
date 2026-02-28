@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(to right, rgb(39, 102, 37), rgb(72, 133, 43) ,rgb(52, 156, 38), rgb(22, 197, 31));
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  background-size: cover;      
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  height: 300px; 
+  background-color: white;
+  background-image: url("img/images\ phon.jpg"); 
+  background-size: cover;            
+  background-position: center;       
+  background-repeat: no-repeat;      
+  color: white;                      
+  display: flex;                     
+  flex-direction: column;
+  justify-content: center;           
+  align-items: center;               
+  text-align: center;                
+  background: #333;
+  padding:30px;
+  text-align: center;
+}
+
+
+
+.header {
+  background-color: white;
+  height: 300px;
+  background: url("img/depositphotos_43389909-stock-photo-tourist-bus-traveling-on-road.jpg") center/cover no-repeat;
+  position: relative;
+border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.header::before {
+  border-radius: 60px;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.header h1,
+.header p {
+  position: relative;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 48px;
+}
+
+
+.header p {
+  font-size: 18px;
+}
+
+
+.menu {
+  color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  overflow: hidden;
+}
+
+
+.container {
+  max-width: 800px;   
+  margin: 0 auto;     
+  padding: 30px;
+} 
+
+
+
+
+
+.card {
+ 
+  background: #fff;          
+  border-radius: 14px;      
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+  max-width: 1200px;
+  margin: 20px auto;
+  transition:transform 0.5s ease;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+.margin{
+  line-height: 2.5;
+  
+}
+.team {
+  display:flex;
+     background: #fff;          
+  border-radius: 14px;      
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+  
+  
+}
