@@ -78,14 +78,12 @@ border-radius: 60px;
   gap: 30px;
   overflow: hidden;
 }
-
-
 .container {
-  max-width: 800px;   
-  margin: 0 auto;     
-  padding: 30px;
+  max-width: 900px;  
+  width: 100%;       
+  margin: 0 auto;   
+  padding: 0 15px;   
 }
-
 
 .card1 {
 margin: 0 auto;
